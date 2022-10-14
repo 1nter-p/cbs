@@ -1,0 +1,29 @@
+{
+  "name": "cow-breathing-solutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1nter-p/cbs.git"
+  },
+  "keywords": [
+    "cow",
+    "breathe",
+    "solutions",
+    "breathing",
+    "cows"
+  ],
+  "author": "1nterp, sqd and ducc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1nter-p/cbs/issues"
+  },
+  "homepage": "https://github.com/1nter-p/cbs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
