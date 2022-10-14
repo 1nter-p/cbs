@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    user-select: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    padding: 4rem;
+}
+
+#cow {
+    align-self: center;
+    margin-top: 4rem;
+    z-index: -1;
+}
+
+#indicator {
+    display: flex;
+    flex-direction: column;
+}
+
+#indicator__text {
+    font-size: 24px;
+}
+
+#indicator__bar {
+    align-self: center;
+
+    margin-top: 1rem;
+
+    width: 500px;
+    height: 30px;
+    border: 1px solid;
+}
+
+#indicator__bar__percentage {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+}
