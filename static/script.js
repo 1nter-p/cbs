@@ -18,6 +18,13 @@ function setBarPercentage(percentage) {
   percentageEl.style.width = `${percentage}%`;
 }
 
+/**
+ * Become the wise tree.
+ */
+function becomeWiseTree() {
+  document.getElementById("cow").src = "assets/tree.jpg";
+}
+
 let isMouseDown = false;
 
 document.addEventListener("mousedown", () => (isMouseDown = true));
