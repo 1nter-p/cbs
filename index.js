@@ -7,3 +7,5 @@ const app = express();
 app.use("/", express.static("static"));
 
 app.listen(PORT, () => console.log(`Cow is breathing on port ${PORT}`));
+
+module.exports = app;
